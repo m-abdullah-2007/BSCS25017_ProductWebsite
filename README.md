@@ -1,1 +1,2 @@
 # BSCS25017_ProductWebsite
+#Description:"Our website is an online bookstore designed to make discovering and buying books simple, fast, and enjoyable. From timeless classics to the latest bestsellers, we offer a wide variety of genres including fiction, non-fiction, self-help, romance, and academic texts. The platform provides detailed book descriptions, author insights, and recommendations to help readers find the perfect read. With an easy-to-use interface, secure checkout, and reliable delivery, our goal is to bring the joy of reading closer to everyone."
