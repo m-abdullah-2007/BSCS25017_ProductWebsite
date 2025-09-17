@@ -1,0 +1,241 @@
+.navbar {
+    background-color:rgb(93, 204, 208);
+    
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+  
+}
+.navbar img{
+  height: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+    padding: 15px 20px;
+}
+
+.welcome{
+       
+    height: 60vh;
+     display: flex;   
+    justify-content: center;
+    align-items: center;
+    color: rgb(36, 33, 33);
+    text-align: center;
+    position: relative;
+    padding: 18px;
+    background-color:whitesmoke;
+    justify-content: space-around;
+     background-image: url(LOGO1.png) ; 
+      background-size: cover;   
+      background-position: center; 
+    
+    }
+.welcome_text{
+    font-weight: 600;
+    font-size: 4em;
+    
+}
+
+.Aboutus{
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+text-align: justify;
+margin-left: 20px;
+margin-right: 20px;
+justify-content: center;
+
+}
+.product1{
+    background-color: rgb(93, 204, 208);
+    padding: 40px 90px;
+    text-align: center;
+    position: relative;
+}
+.products2 {
+    position: relative;
+    z-index: 1;
+}
+.btn{
+ background-color: aquamarine;
+ color: aliceblue;
+ padding: 10px 35px;
+ text-decoration: none;
+ border-radius: 8px;
+ font-weight: 700;
+}
+.btn:hover {
+    background-color: chartreuse;
+    
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+}
+.footer_content{
+    text-decoration: none;
+ 
+}
+.product_body{
+  background-color:rgb(93, 204, 208);
+}
+.productbox{
+    display: grid;
+    grid-template-columns: minmax(200px,1fr);
+    gap: 25px;
+    margin: 25px;
+    background-color:rgb(93, 204, 208);
+}
+.products{
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    background: #ffffff;
+    background-color:whitesmoke;
+}
+.products img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .products h2 {
+      margin: 10px 0;
+    }
+    .products h3 {
+      margin: 10px 0;
+    }
+    .products p {
+      color: green;
+      font-weight: bold;
+    }
+    .products button {
+      background: #00b7ff;
+      color: #ffffff;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .products button:hover {
+      background: #0056b3;
+    }
+    .contact_card{
+       background-color: whitesmoke;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 350px;
+      margin-left: 30%;
+      margin-top: 3%;
+          }
+    .contact_card h2{
+       margin-bottom: 20px;
+      color: #333;
+    }
+    .contact_credentials p{
+      margin: 10px 0;
+      font-size: 16px;
+      color: #555;}
+    
+     .social_media {
+      margin-top: 20px;
+    }
+    .social_media a {
+      margin: 0 10px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+    .social_media a:hover {
+      transform: scale(1.2);
+    }
+    .social_media img {
+      width: 35px;
+      height: 35px;
+    }
+    body{
+      background-color: aliceblue;
+    }
+    .navbar1 {
+    background-color:azure;
+    align-items: center;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+.navbar1 a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 15px;
+    margin-left: 150px;
+  
+}
+.navbar1 img{
+  height: 50px;
+  margin-right: 100px;
+
+}
+.btn1{
+  background: #00b7ff;
+      color: #ffffff;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+}
+.two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+      
+  
+      text-align: center;
+      width: 350px;
+      margin-left: 30%;
+      margin-top: 3%;
+}
+.chatbot-container {
+width: 350px;
+height: 500px;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 0 10px gray;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+
+.chat-window {
+flex: 1;
+padding: 10px;
+overflow-y: auto;
+}
+
+.chat-input {
+display: flex;
+border-top: 1px solid #ddd;
+}
+
+#user-input {
+flex: 1;
+padding: 10px;
+border: none;
+outline: none;
+}
